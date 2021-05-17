@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="URL_DatabaseModelStoreContainer" CdmEntityContainer="URL_DatabaseEntities">
+    <EntitySetMapping Name="URLS">
+      <EntityTypeMapping TypeName="URL_DatabaseModel.URL">
+        <MappingFragment StoreEntitySet="URLS">
+          <ScalarProperty Name="URL_ID" ColumnName="URL_ID" />
+          <ScalarProperty Name="LONG_URL" ColumnName="LONG_URL" />
+          <ScalarProperty Name="SHORT_URL" ColumnName="SHORT_URL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,16 @@
+﻿@model UrlShortenService.Models.URL
+
+@{
+    ViewBag.Title = "ReDirect";
+}
+
+
+<body>
+    <div class="container text-center">
+        <div>
+            <h2>Your Link Is below</h2>
+            <a href="@Model.LONG_URL">@Model.LONG_URL</a>
+        </div>
+
+    </div>
+</body>
